@@ -1,0 +1,40 @@
+body, h1, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgba(41, 41, 41, 1);
+}
+.container {
+    margin: 25px;
+    max-width: 700px;
+}
+h1 {
+    letter-spacing: -0.016em;
+    line-height: 40px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+p {
+    margin-top: 20px;
+    letter-spacing: -0.003em;
+    line-height: 32px;
+    font-size: 20px;
+    font-style: normal;
+    word-break: break-word;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+blockquote {
+    background: #fbf3f3;
+    border-radius: 0.25em;
+    padding: 10px 1rem;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    word-break: break-word;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
